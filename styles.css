@@ -44,11 +44,22 @@ The designs were created to the following widths:
     --black:  hsl(0, 0%, 7%);
 }
 
+body {
+    background-color: var(--yellow);
+}
 main {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+article {
+    border: 3px solid red;
+    border-radius: 20px;
+    background: teal;
+    width: 340px;
+    height: 530px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
