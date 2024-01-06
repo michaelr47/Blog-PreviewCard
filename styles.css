@@ -55,11 +55,23 @@ main {
 }
 
 article {
-    border: 3px solid red;
+    border: 1px solid var(--black);
     border-radius: 20px;
     background: teal;
-    width: 340px;
-    height: 530px;
+    width: 380px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    padding: 1rem;
+}
+
+.illustrationImage {
+    border-radius: 10px;
+}
+
+.profileImage {
+    width: 30px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
