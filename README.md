@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github repo](https://github.com/michaelr47/Blog-PreviewCard)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Blog Preview Card](https://michaelr47.github.io/Blog-PreviewCard/)
 
 ## My process
 
