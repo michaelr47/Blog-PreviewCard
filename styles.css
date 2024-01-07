@@ -51,6 +51,11 @@ article {
 .date {
     font-size: 14px;
 }
+
+h1:hover {
+    color: var(--yellow);
+    cursor: pointer;
+}
 .details { color: var(--gray); 
     line-height: 1.5rem;
 }
