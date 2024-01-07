@@ -26,7 +26,7 @@ article {
     border: 1.5px solid var(--black);
     border-radius: 20px;
     background-color: var(--white);
-    width: 385px;
+    width: 350px;
     height: 520px;
     display: flex;
     flex-direction: column;
@@ -67,5 +67,10 @@ article {
     font-weight: 800;
 }
 
+@media only screen and (min-width: 768px) {
+    article {
+        width: 385px;
+    }
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
